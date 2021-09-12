@@ -21,6 +21,9 @@ public class GameManager {
         out.printInputPlayerName();
 
         // 문자열 처리
+        List<String> playerName = StringUtils.processPlayer(in.inputPlayerName());
+
+        // 유효성 검사
 
 
         // 블랙잭 시작
